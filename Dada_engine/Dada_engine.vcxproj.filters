@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="window">
+      <UniqueIdentifier>{a255a739-7756-4f26-9aa8-cf3ae5d78b8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="png_loader">
+      <UniqueIdentifier>{3e5c1d0a-7f10-4c4f-8397-5bb74c354d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics">
+      <UniqueIdentifier>{54d8240e-acb2-4f27-9d63-193a8f38a1b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="voxels">
+      <UniqueIdentifier>{b3d2c39d-cb69-41a3-b144-e47fd0798c4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files">
+      <UniqueIdentifier>{40af3366-39b2-43a9-bb3d-277d817384b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio">
+      <UniqueIdentifier>{96865c0a-020f-4c62-ae4e-7d578dbd4eb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lighting">
+      <UniqueIdentifier>{29c13d8a-4b33-49c6-9cdd-f9c68692a111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="maths">
+      <UniqueIdentifier>{62045e21-01d1-41f1-94bb-43aec538aa89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects">
+      <UniqueIdentifier>{d3a1ed1c-4b4e-4b58-803b-e040756da159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physics">
+      <UniqueIdentifier>{ff896e6b-132a-460c-bd3f-a0ccbca99e8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="world">
+      <UniqueIdentifier>{2535fe4d-ad89-4e9a-8c67-27f8ca560119}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="voxel_engine.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="Events.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="png_loading.cpp">
+      <Filter>png_loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="voxel.cpp">
+      <Filter>voxels</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>voxels</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="VoxelRenderer.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunks.cpp">
+      <Filter>voxels</Filter>
+    </ClCompile>
+    <ClCompile Include="LineBatch.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="files.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audioutil.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldFiles.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="Batch2D.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Batch3D.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Framebuffer.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="UVRegion.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="LightSolver.cpp">
+      <Filter>lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting.cpp">
+      <Filter>lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightmap.cpp">
+      <Filter>lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Hitbox.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsSolver.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>voxels</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunksController.cpp">
+      <Filter>voxels</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunksLoader.cpp">
+      <Filter>voxels</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldGenerator.cpp">
+      <Filter>voxels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="declarations.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="hud_render.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="player_control.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="world_render.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="png_loading.h">
+      <Filter>png_loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="voxel.h">
+      <Filter>voxels</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>voxels</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="VoxelRenderer.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunks.h">
+      <Filter>voxels</Filter>
+    </ClInclude>
+    <ClInclude Include="LineBatch.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="files.h">
+      <Filter>files</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="audioutil.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldFiles.h">
+      <Filter>files</Filter>
+    </ClInclude>
+    <ClInclude Include="Batch2D.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Batch3D.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Framebuffer.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="UVRegion.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="LightSolver.h">
+      <Filter>lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="Lighting.h">
+      <Filter>lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="Lightmap.h">
+      <Filter>lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="FastNoiseLite.h">
+      <Filter>maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Hitbox.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsSolver.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>voxels</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunksController.h">
+      <Filter>voxels</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunksLoader.h">
+      <Filter>voxels</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldGenerator.h">
+      <Filter>voxels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="declarations.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="hud_render.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="player_control.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="world_render.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
